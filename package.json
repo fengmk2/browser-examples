@@ -11,13 +11,13 @@
     "test": "pnpm -r --filter !marko --filter !vue-msw-graphql --sequential test -- --no-watch --browser.headless"
   },
   "devDependencies": {
-    "playwright": "^1.57.0",
+    "playwright": "catalog:",
     "typescript": "^5.9.3",
     "@voidzero-dev/vite-plus": "catalog:"
   },
   "pnpm": {
     "overrides": {
-      "playwright": "^1.57.0"
+      "playwright": "catalog:"
     }
   }
 }
