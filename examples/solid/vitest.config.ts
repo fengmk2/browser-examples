@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitest/config'
-import { playwright } from '@vitest/browser-playwright'
+import { defineConfig } from '@voidzero-dev/vite-plus'
+import { playwright } from '@voidzero-dev/vite-plus/test/browser-playwright'
 import solid from 'vite-plugin-solid'
 
 export default defineConfig({

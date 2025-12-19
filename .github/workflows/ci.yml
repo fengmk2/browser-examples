@@ -17,6 +17,7 @@ concurrency:
 
 env:
   PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.cache/ms-playwright
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
 
 jobs:
   test:

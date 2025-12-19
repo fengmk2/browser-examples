@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest'
+import { expect, test } from '@voidzero-dev/vite-plus/test'
 import { render } from 'vitest-browser-svelte'
 import HelloWorld from '../src/HelloWorld.svelte'
 

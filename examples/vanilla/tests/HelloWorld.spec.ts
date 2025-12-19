@@ -1,6 +1,6 @@
-import { expect, test } from 'vitest'
-import {getCurrentSuite} from 'vitest/suite'
-import { page } from 'vitest/browser'
+import { expect, test } from '@voidzero-dev/vite-plus/test'
+import {getCurrentSuite} from '@voidzero-dev/vite-plus/test/suite'
+import { page } from '@voidzero-dev/vite-plus/test/browser'
 import HelloWorld from '../src/HelloWorld'
 getCurrentSuite().suite
 
