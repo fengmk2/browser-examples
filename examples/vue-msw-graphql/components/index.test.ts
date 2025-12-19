@@ -6,7 +6,7 @@ import {
   afterEach,
   afterAll,
   vi,
-} from "vitest";
+} from "@voidzero-dev/vite-plus/test";
 import Index from "./index.vue";
 import { worker } from "../mock/worker";
 import { render } from "vitest-browser-vue";

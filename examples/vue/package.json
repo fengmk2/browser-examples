@@ -3,15 +3,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vite test"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
-    "@vitest/browser-playwright": "^4.0.0-beta.17",
     "playwright": "^1.44.1",
     "typescript": "^5.5.2",
-    "vitest": "^4.0.0-beta.17",
+    "vitest": "catalog:",
     "vitest-browser-vue": "^2.0.0-beta.1",
-    "vue": "^3.4.30"
+    "vue": "^3.4.30",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

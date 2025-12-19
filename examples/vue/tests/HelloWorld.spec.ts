@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest'
+import { expect, test } from '@voidzero-dev/vite-plus/test'
 import { render } from 'vitest-browser-vue'
 import HelloWorld from '../src/HelloWorld.vue'
 
